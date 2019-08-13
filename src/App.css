@@ -11,4 +11,11 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.card {
+  box-shadow: 5px 10px 15px #999 !important;
+}
+.card:nth-child(1) {
+  margin-top: 1rem !important;
 }
