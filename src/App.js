@@ -29,11 +29,11 @@ function App() {
           onChange={handleChange}
           placeholder="Enter a todo..."
         />
-        <button type="submit">Submit</button>
+        <button type="submit">Zang!</button>
       </form>
 
       <button onClick={() => dispatch({ type: "clear-todos" })}>
-        Clear Completed
+        Clear 'em
       </button>
       <div className="card-container">
         {state.todos.map(todo => (
