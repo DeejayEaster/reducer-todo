@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.card {
+  box-shadow: 7px 5px 15px #999 !important;
+}
+.card:nth-child(1) {
+  margin-top: 1rem !important;
+}
